@@ -1,0 +1,239 @@
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #bbb;
+  color: black;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer {
+  position: flex;
+  padding: 4px 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Galerija Sekcija */
+#gallery {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#gallery .gallery-item {
+	margin: 0 0px;
+	display: inline-block;
+}
+
+#gallery img {
+  width: 330.25px;
+  height: auto;
+  display: block;
+  padding: 4px 0px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.kuvar-img img {
+  width: 650px;
+  height: auto;
+  display: block;
+  padding: 0px 0px;
+}
+/* Menu Sekcija */
+#restaurant-menu {
+	padding: 100px 0 60px 0;
+}
+#restaurant-menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+	display: block;
+}
+#restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+	font-size: 32px;
+	display: block;
+	font-weight: 400;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#restaurant-menu .menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+}
+#restaurant-menu .menu-item-name {
+	font-weight: 400;
+	font-size: 20px;
+	color: #444;
+	margin-bottom: 10px;
+}
+#restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 400;
+	color: #555;
+	margin-top: -36px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+/* KONTAKT FORMA */
+.form-wrapper{
+    padding: 0 1em;
+}
+
+.contact-us{
+    width: 100%;
+    color: #fff;
+    padding: 1.2em;
+    text-align: center;
+    background: rgb(94, 62, 238);
+}
+
+.contact-us h1{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.contact-us p{
+    font-size: 1.5rem;
+}
+
+label{  
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form{
+    width: 100%;
+    max-width: 31em;
+    border: 1px rgb(13, 13, 13) solid;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+textarea{ 
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    outline: none;
+}
+
+.invalid{
+    border: 1px red solid;
+}
+
+.error{
+    color: red;
+}
+
+hr{
+    color: rgb(94, 62, 238);
+    margin: 20px 0;
+}
+
+button{
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(13, 13, 13);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    color: rgb(13, 13, 13);
+    background: transparent;
+    border: 2px rgb(13, 13, 13) solid;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.thank-you{
+    color: rgb(13, 13, 13);
+    padding: 130px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info{
+    color: red;
+}
+
+.call-back{
+    color: red;
+}
+
+.dobrodoslica {
+  width: 100vw;
+  height: 400px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 153, 0, 0.8);
+  text-align: center;
+}
